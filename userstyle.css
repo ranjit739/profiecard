@@ -1,0 +1,56 @@
+.parent-div {
+    height: 450px;
+ 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 500px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 32px;
+    background-color: aliceblue;
+
+    margin-top: 30px;
+
+}
+
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: aquamarine;
+}
+
+.title {
+    display: block;
+    width: 180px;
+    margin: auto;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+
+    padding: 2px;
+
+
+}
+.contact h4{
+ font-style: italic;
+    text-align: center;
+    font-size: 24px;
+}
+@media(max-width:600px)
+{
+    .parent-div{
+        height: 300px;
+        width: 90%;
+    }
+    .profile-pic{
+        width: 90%;
+    }
+}
